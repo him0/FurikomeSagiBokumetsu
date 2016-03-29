@@ -1,15 +1,117 @@
-手続きをするため社会保険事務所に電話をして欲しい,dubious
-携帯電話を持ってATMに行ってください,dubious
-医療費の還付がある,dubious
-社会保険事務所の電話番号を教えるので連絡してください,dubious
-ATMに行き、私の言うとおり操作してください,dubious
-後からでは買えない,dubious
-絶対に儲かりますよ,dubious
-オレだけど、ケータイが壊れちゃって番号変わったんだ,dubious
-オレだけど、ケータイ落としちゃって……警察から電話なかった,dubious
-オレだけど、ケータイ落としちゃってさ……この番号登録しておいてくれる,dubious
-実は、会社のお金を使い込んじゃって……事件にしないためにはお金が必要なんだ,dubious
-指定の口座に振り込んでもらえないかな?,dubious
-ケータイを修理に出してるから、番号が変わったんだ,dubious
-風邪ひいて声がおかしくなっちゃってさ,dubious
-ところでケータイ落としちゃったんだけど,dubious
+{
+  "classifier_id" : "beb9bfx46-nlc-100",
+  "url" : "https://gateway.watsonplatform.net/natural-language-classifier/api/v1/classifiers/beb9bfx46-nlc-100",
+  "text" : "手続きをするため社会保険事務所に電話をして欲しい",
+  "top_class" : "dubious",
+  "classes" : [ {
+    "class_name" : "dubious",
+    "confidence" : 0.9948865427583861
+  }, {
+    "class_name" : "normal",
+    "confidence" : 0.005113457241613938
+  } ]
+}
+{
+  "classifier_id" : "beb9bfx46-nlc-100",
+  "url" : "https://gateway.watsonplatform.net/natural-language-classifier/api/v1/classifiers/beb9bfx46-nlc-100",
+  "text" : "携帯電話を持ってATMに行ってください",
+  "top_class" : "dubious",
+  "classes" : [ {
+    "class_name" : "dubious",
+    "confidence" : 0.9729404180220926
+  }, {
+    "class_name" : "normal",
+    "confidence" : 0.02705958197790745
+  } ]
+}
+{
+  "classifier_id" : "beb9bfx46-nlc-100",
+  "url" : "https://gateway.watsonplatform.net/natural-language-classifier/api/v1/classifiers/beb9bfx46-nlc-100",
+  "text" : "医療費の還付がある",
+  "top_class" : "dubious",
+  "classes" : [ {
+    "class_name" : "dubious",
+    "confidence" : 0.992138231337217
+  }, {
+    "class_name" : "normal",
+    "confidence" : 0.007861768662782865
+  } ]
+}
+{
+  "classifier_id" : "beb9bfx46-nlc-100",
+  "url" : "https://gateway.watsonplatform.net/natural-language-classifier/api/v1/classifiers/beb9bfx46-nlc-100",
+  "text" : "社会保険事務所の電話番号を教えるので連絡してください",
+  "top_class" : "dubious",
+  "classes" : [ {
+    "class_name" : "dubious",
+    "confidence" : 0.9950395162979199
+  }, {
+    "class_name" : "normal",
+    "confidence" : 0.0049604837020800945
+  } ]
+}
+{
+  "classifier_id" : "beb9bfx46-nlc-100",
+  "url" : "https://gateway.watsonplatform.net/natural-language-classifier/api/v1/classifiers/beb9bfx46-nlc-100",
+  "text" : "ATMに行き、私の言うとおり操作してください",
+  "top_class" : "dubious",
+  "classes" : [ {
+    "class_name" : "dubious",
+    "confidence" : 0.7810809421245455
+  }, {
+    "class_name" : "normal",
+    "confidence" : 0.2189190578754545
+  } ]
+}
+{
+  "classifier_id" : "beb9bfx46-nlc-100",
+  "url" : "https://gateway.watsonplatform.net/natural-language-classifier/api/v1/classifiers/beb9bfx46-nlc-100",
+  "text" : "後からでは買えない",
+  "top_class" : "normal",
+  "classes" : [ {
+    "class_name" : "normal",
+    "confidence" : 0.9690682852746393
+  }, {
+    "class_name" : "dubious",
+    "confidence" : 0.030931714725360725
+  } ]
+}
+{
+  "classifier_id" : "beb9bfx46-nlc-100",
+  "url" : "https://gateway.watsonplatform.net/natural-language-classifier/api/v1/classifiers/beb9bfx46-nlc-100",
+  "text" : "絶対に儲かりますよ",
+  "top_class" : "normal",
+  "classes" : [ {
+    "class_name" : "normal",
+    "confidence" : 0.9910830952003538
+  }, {
+    "class_name" : "dubious",
+    "confidence" : 0.008916904799646245
+  } ]
+}
+{
+  "classifier_id" : "beb9bfx46-nlc-100",
+  "url" : "https://gateway.watsonplatform.net/natural-language-classifier/api/v1/classifiers/beb9bfx46-nlc-100",
+  "text" : "オレだけど、ケータイが壊れちゃって番号変わったんだ",
+  "top_class" : "normal",
+  "classes" : [ {
+    "class_name" : "normal",
+    "confidence" : 0.7951928498648396
+  }, {
+    "class_name" : "dubious",
+    "confidence" : 0.20480715013516046
+  } ]
+}
+{
+  "classifier_id" : "beb9bfx46-nlc-100",
+  "url" : "https://gateway.watsonplatform.net/natural-language-classifier/api/v1/classifiers/beb9bfx46-nlc-100",
+  "text" : "オレだけど、ケータイ落としちゃって……警察から電話なかった",
+  "top_class" : "dubious",
+  "classes" : [ {
+    "class_name" : "dubious",
+    "confidence" : 0.8256376728492161
+  }, {
+    "class_name" : "normal",
+    "confidence" : 0.17436232715078395
+  } ]
+}

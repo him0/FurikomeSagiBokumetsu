@@ -1,50 +1,390 @@
-いいですねぇ
-良くないです．全然良くないです．
-ほんとです
-どっちなんですか
-ブラック
-サッカーは好きですか？
-サッカーがうまくなりたいそうですよ
-誰が？
-さぁ
-あなたが言ったんですよ
-サッカーができないそうです
-だから誰が？
-えっ
-誰がですか？
-えっ
-おはようございます。海へ行きたいね。
-海いいですね
-海は楽しいですね
-この間久しぶりに行きました
-海は好きですね
-海はうきうきしますね
-気持ちがいいですね
-分かります
-ですよね
-夏って感じがします
-海は騒がしいですよねえ
-海に行くと盛り上がりますもんね
-海は静かなんですよねー
-騒がしいのか静かなのかどっちですか
-海はサイコーですよねえ
-サイコーですねえ
-さいこー
-海が大好きなんですね
-海はサイコーですね
-サイコーなのがとても伝わってきました
-海は素晴らしいですね
-おはよう！熱中症に気をつけて。
-今日は冬だぜ!
-熱中症に気をつけか？？
-ん？
-はい　
-ごめんなさい
-許しましょう
-今日は冬ですね
-ところで、原爆の日の６日夜に、原爆ドーム前を流れる元安川で灯籠流しがあり、約８０００個の明かりに参加者は手を合わせ冥福を祈ったそうです。
-今はwinterですよ
-winterが過ぎてるようです
-嘘をつかないでください
-嘘は綻びが出る予定です
-今の季節は何ですか？
+{
+  "classifier_id" : "beb9bfx46-nlc-100",
+  "url" : "https://gateway.watsonplatform.net/natural-language-classifier/api/v1/classifiers/beb9bfx46-nlc-100",
+  "text" : "いいですねぇ",
+  "top_class" : "normal",
+  "classes" : [ {
+    "class_name" : "normal",
+    "confidence" : 0.9921525673531794
+  }, {
+    "class_name" : "dubious",
+    "confidence" : 0.007847432646820618
+  } ]
+}
+{
+  "classifier_id" : "beb9bfx46-nlc-100",
+  "url" : "https://gateway.watsonplatform.net/natural-language-classifier/api/v1/classifiers/beb9bfx46-nlc-100",
+  "text" : "良くないです．全然良くないです．",
+  "top_class" : "normal",
+  "classes" : [ {
+    "class_name" : "normal",
+    "confidence" : 0.9947680610437494
+  }, {
+    "class_name" : "dubious",
+    "confidence" : 0.005231938956250576
+  } ]
+}
+{
+  "classifier_id" : "beb9bfx46-nlc-100",
+  "url" : "https://gateway.watsonplatform.net/natural-language-classifier/api/v1/classifiers/beb9bfx46-nlc-100",
+  "text" : "ほんとです",
+  "top_class" : "normal",
+  "classes" : [ {
+    "class_name" : "normal",
+    "confidence" : 0.9927807043099606
+  }, {
+    "class_name" : "dubious",
+    "confidence" : 0.007219295690039408
+  } ]
+}
+{
+  "classifier_id" : "beb9bfx46-nlc-100",
+  "url" : "https://gateway.watsonplatform.net/natural-language-classifier/api/v1/classifiers/beb9bfx46-nlc-100",
+  "text" : "どっちなんですか",
+  "top_class" : "normal",
+  "classes" : [ {
+    "class_name" : "normal",
+    "confidence" : 0.9953029936793457
+  }, {
+    "class_name" : "dubious",
+    "confidence" : 0.004697006320654253
+  } ]
+}
+{
+  "classifier_id" : "beb9bfx46-nlc-100",
+  "url" : "https://gateway.watsonplatform.net/natural-language-classifier/api/v1/classifiers/beb9bfx46-nlc-100",
+  "text" : "ブラック",
+  "top_class" : "normal",
+  "classes" : [ {
+    "class_name" : "normal",
+    "confidence" : 0.9880972343124836
+  }, {
+    "class_name" : "dubious",
+    "confidence" : 0.011902765687516323
+  } ]
+}
+{
+  "classifier_id" : "beb9bfx46-nlc-100",
+  "url" : "https://gateway.watsonplatform.net/natural-language-classifier/api/v1/classifiers/beb9bfx46-nlc-100",
+  "text" : "サッカーは好きですか？",
+  "top_class" : "normal",
+  "classes" : [ {
+    "class_name" : "normal",
+    "confidence" : 0.9967940671212744
+  }, {
+    "class_name" : "dubious",
+    "confidence" : 0.003205932878725637
+  } ]
+}
+{
+  "classifier_id" : "beb9bfx46-nlc-100",
+  "url" : "https://gateway.watsonplatform.net/natural-language-classifier/api/v1/classifiers/beb9bfx46-nlc-100",
+  "text" : "サッカーがうまくなりたいそうですよ",
+  "top_class" : "normal",
+  "classes" : [ {
+    "class_name" : "normal",
+    "confidence" : 0.9956138516799024
+  }, {
+    "class_name" : "dubious",
+    "confidence" : 0.004386148320097525
+  } ]
+}
+{
+  "classifier_id" : "beb9bfx46-nlc-100",
+  "url" : "https://gateway.watsonplatform.net/natural-language-classifier/api/v1/classifiers/beb9bfx46-nlc-100",
+  "text" : "誰が？",
+  "top_class" : "normal",
+  "classes" : [ {
+    "class_name" : "normal",
+    "confidence" : 0.9922691179234303
+  }, {
+    "class_name" : "dubious",
+    "confidence" : 0.007730882076569698
+  } ]
+}
+{
+  "classifier_id" : "beb9bfx46-nlc-100",
+  "url" : "https://gateway.watsonplatform.net/natural-language-classifier/api/v1/classifiers/beb9bfx46-nlc-100",
+  "text" : "さぁ",
+  "top_class" : "normal",
+  "classes" : [ {
+    "class_name" : "normal",
+    "confidence" : 0.9916392250808498
+  }, {
+    "class_name" : "dubious",
+    "confidence" : 0.008360774919150127
+  } ]
+}
+{
+  "classifier_id" : "beb9bfx46-nlc-100",
+  "url" : "https://gateway.watsonplatform.net/natural-language-classifier/api/v1/classifiers/beb9bfx46-nlc-100",
+  "text" : "あなたが言ったんですよ",
+  "top_class" : "normal",
+  "classes" : [ {
+    "class_name" : "normal",
+    "confidence" : 0.9937611750127281
+  }, {
+    "class_name" : "dubious",
+    "confidence" : 0.006238824987271981
+  } ]
+}
+{
+  "classifier_id" : "beb9bfx46-nlc-100",
+  "url" : "https://gateway.watsonplatform.net/natural-language-classifier/api/v1/classifiers/beb9bfx46-nlc-100",
+  "text" : "サッカーができないそうです",
+  "top_class" : "normal",
+  "classes" : [ {
+    "class_name" : "normal",
+    "confidence" : 0.9939473926467746
+  }, {
+    "class_name" : "dubious",
+    "confidence" : 0.006052607353225518
+  } ]
+}
+{
+  "classifier_id" : "beb9bfx46-nlc-100",
+  "url" : "https://gateway.watsonplatform.net/natural-language-classifier/api/v1/classifiers/beb9bfx46-nlc-100",
+  "text" : "だから誰が？",
+  "top_class" : "normal",
+  "classes" : [ {
+    "class_name" : "normal",
+    "confidence" : 0.992463523571695
+  }, {
+    "class_name" : "dubious",
+    "confidence" : 0.0075364764283050115
+  } ]
+}
+{
+  "classifier_id" : "beb9bfx46-nlc-100",
+  "url" : "https://gateway.watsonplatform.net/natural-language-classifier/api/v1/classifiers/beb9bfx46-nlc-100",
+  "text" : "えっ",
+  "top_class" : "normal",
+  "classes" : [ {
+    "class_name" : "normal",
+    "confidence" : 0.9916392782349228
+  }, {
+    "class_name" : "dubious",
+    "confidence" : 0.008360721765077192
+  } ]
+}
+{
+  "classifier_id" : "beb9bfx46-nlc-100",
+  "url" : "https://gateway.watsonplatform.net/natural-language-classifier/api/v1/classifiers/beb9bfx46-nlc-100",
+  "text" : "誰がですか？",
+  "top_class" : "normal",
+  "classes" : [ {
+    "class_name" : "normal",
+    "confidence" : 0.995940622013716
+  }, {
+    "class_name" : "dubious",
+    "confidence" : 0.00405937798628398
+  } ]
+}
+{
+  "classifier_id" : "beb9bfx46-nlc-100",
+  "url" : "https://gateway.watsonplatform.net/natural-language-classifier/api/v1/classifiers/beb9bfx46-nlc-100",
+  "text" : "えっ",
+  "top_class" : "normal",
+  "classes" : [ {
+    "class_name" : "normal",
+    "confidence" : 0.9916392782349228
+  }, {
+    "class_name" : "dubious",
+    "confidence" : 0.008360721765077192
+  } ]
+}
+{
+  "classifier_id" : "beb9bfx46-nlc-100",
+  "url" : "https://gateway.watsonplatform.net/natural-language-classifier/api/v1/classifiers/beb9bfx46-nlc-100",
+  "text" : "おはようございます。海へ行きたいね。",
+  "top_class" : "normal",
+  "classes" : [ {
+    "class_name" : "normal",
+    "confidence" : 0.9970812957775265
+  }, {
+    "class_name" : "dubious",
+    "confidence" : 0.0029187042224734705
+  } ]
+}
+{
+  "classifier_id" : "beb9bfx46-nlc-100",
+  "url" : "https://gateway.watsonplatform.net/natural-language-classifier/api/v1/classifiers/beb9bfx46-nlc-100",
+  "text" : "海いいですね",
+  "top_class" : "normal",
+  "classes" : [ {
+    "class_name" : "normal",
+    "confidence" : 0.9966955203453849
+  }, {
+    "class_name" : "dubious",
+    "confidence" : 0.0033044796546151094
+  } ]
+}
+{
+  "classifier_id" : "beb9bfx46-nlc-100",
+  "url" : "https://gateway.watsonplatform.net/natural-language-classifier/api/v1/classifiers/beb9bfx46-nlc-100",
+  "text" : "海は楽しいですね",
+  "top_class" : "normal",
+  "classes" : [ {
+    "class_name" : "normal",
+    "confidence" : 0.9966772633448854
+  }, {
+    "class_name" : "dubious",
+    "confidence" : 0.003322736655114613
+  } ]
+}
+{
+  "classifier_id" : "beb9bfx46-nlc-100",
+  "url" : "https://gateway.watsonplatform.net/natural-language-classifier/api/v1/classifiers/beb9bfx46-nlc-100",
+  "text" : "この間久しぶりに行きました",
+  "top_class" : "normal",
+  "classes" : [ {
+    "class_name" : "normal",
+    "confidence" : 0.9623725671877476
+  }, {
+    "class_name" : "dubious",
+    "confidence" : 0.03762743281225252
+  } ]
+}
+{
+  "classifier_id" : "beb9bfx46-nlc-100",
+  "url" : "https://gateway.watsonplatform.net/natural-language-classifier/api/v1/classifiers/beb9bfx46-nlc-100",
+  "text" : "海は好きですね",
+  "top_class" : "normal",
+  "classes" : [ {
+    "class_name" : "normal",
+    "confidence" : 0.9968573127970579
+  }, {
+    "class_name" : "dubious",
+    "confidence" : 0.003142687202942019
+  } ]
+}
+{
+  "classifier_id" : "beb9bfx46-nlc-100",
+  "url" : "https://gateway.watsonplatform.net/natural-language-classifier/api/v1/classifiers/beb9bfx46-nlc-100",
+  "text" : "海はうきうきしますね",
+  "top_class" : "normal",
+  "classes" : [ {
+    "class_name" : "normal",
+    "confidence" : 0.9958432455578353
+  }, {
+    "class_name" : "dubious",
+    "confidence" : 0.004156754442164657
+  } ]
+}
+{
+  "classifier_id" : "beb9bfx46-nlc-100",
+  "url" : "https://gateway.watsonplatform.net/natural-language-classifier/api/v1/classifiers/beb9bfx46-nlc-100",
+  "text" : "気持ちがいいですね",
+  "top_class" : "normal",
+  "classes" : [ {
+    "class_name" : "normal",
+    "confidence" : 0.9965225303938706
+  }, {
+    "class_name" : "dubious",
+    "confidence" : 0.003477469606129289
+  } ]
+}
+{
+  "classifier_id" : "beb9bfx46-nlc-100",
+  "url" : "https://gateway.watsonplatform.net/natural-language-classifier/api/v1/classifiers/beb9bfx46-nlc-100",
+  "text" : "分かります",
+  "top_class" : "normal",
+  "classes" : [ {
+    "class_name" : "normal",
+    "confidence" : 0.9916281937078878
+  }, {
+    "class_name" : "dubious",
+    "confidence" : 0.008371806292112217
+  } ]
+}
+{
+  "classifier_id" : "beb9bfx46-nlc-100",
+  "url" : "https://gateway.watsonplatform.net/natural-language-classifier/api/v1/classifiers/beb9bfx46-nlc-100",
+  "text" : "ですよね",
+  "top_class" : "normal",
+  "classes" : [ {
+    "class_name" : "normal",
+    "confidence" : 1.0
+  }, {
+    "class_name" : "dubious",
+    "confidence" : 0.0
+  } ]
+}
+{
+  "classifier_id" : "beb9bfx46-nlc-100",
+  "url" : "https://gateway.watsonplatform.net/natural-language-classifier/api/v1/classifiers/beb9bfx46-nlc-100",
+  "text" : "夏って感じがします",
+  "top_class" : "normal",
+  "classes" : [ {
+    "class_name" : "normal",
+    "confidence" : 0.9919890703957851
+  }, {
+    "class_name" : "dubious",
+    "confidence" : 0.008010929604214841
+  } ]
+}
+{
+  "classifier_id" : "beb9bfx46-nlc-100",
+  "url" : "https://gateway.watsonplatform.net/natural-language-classifier/api/v1/classifiers/beb9bfx46-nlc-100",
+  "text" : "海は騒がしいですよねえ",
+  "top_class" : "normal",
+  "classes" : [ {
+    "class_name" : "normal",
+    "confidence" : 0.9963566199047351
+  }, {
+    "class_name" : "dubious",
+    "confidence" : 0.0036433800952649156
+  } ]
+}
+{
+  "classifier_id" : "beb9bfx46-nlc-100",
+  "url" : "https://gateway.watsonplatform.net/natural-language-classifier/api/v1/classifiers/beb9bfx46-nlc-100",
+  "text" : "海に行くと盛り上がりますもんね",
+  "top_class" : "normal",
+  "classes" : [ {
+    "class_name" : "normal",
+    "confidence" : 0.9945033214559114
+  }, {
+    "class_name" : "dubious",
+    "confidence" : 0.005496678544088578
+  } ]
+}
+{
+  "classifier_id" : "beb9bfx46-nlc-100",
+  "url" : "https://gateway.watsonplatform.net/natural-language-classifier/api/v1/classifiers/beb9bfx46-nlc-100",
+  "text" : "海は静かなんですよねー",
+  "top_class" : "normal",
+  "classes" : [ {
+    "class_name" : "normal",
+    "confidence" : 0.9951632810297512
+  }, {
+    "class_name" : "dubious",
+    "confidence" : 0.004836718970248901
+  } ]
+}
+{
+  "classifier_id" : "beb9bfx46-nlc-100",
+  "url" : "https://gateway.watsonplatform.net/natural-language-classifier/api/v1/classifiers/beb9bfx46-nlc-100",
+  "text" : "騒がしいのか静かなのかどっちですか",
+  "top_class" : "normal",
+  "classes" : [ {
+    "class_name" : "normal",
+    "confidence" : 0.9951799261120112
+  }, {
+    "class_name" : "dubious",
+    "confidence" : 0.004820073887988761
+  } ]
+}
+{
+  "classifier_id" : "beb9bfx46-nlc-100",
+  "url" : "https://gateway.watsonplatform.net/natural-language-classifier/api/v1/classifiers/beb9bfx46-nlc-100",
+  "text" : "海はサイコーですよねえ",
+  "top_class" : "normal",
+  "classes" : [ {
+    "class_name" : "normal",
+    "confidence" : 0.9963566199744666
+  }, {
+    "class_name" : "dubious",
+    "confidence" : 0.0036433800255334108
+  } ]
+}
