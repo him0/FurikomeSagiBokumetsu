@@ -6,6 +6,7 @@ import tornado.ioloop
 import tornado.web
 import tornado.websocket
 from tornado.web import url
+from Furikome import Furikome
 
 
 class IndexHandler(tornado.web.RequestHandler):
@@ -18,20 +19,33 @@ class IndexHandler(tornado.web.RequestHandler):
 class ChatHandler(tornado.websocket.WebSocketHandler):
 
     waiters = set()
-    messages = []
+    messages = [] # messageはidとtextを含むディクショナリ
+    # チャットユーザのidとFurikomeインスタンスのディクショナリ
+    furikome_by_ids = {}
 
     def open(self, *args, **kwargs):
         self.waiters.add(self)
         self.write_message({'messages': self.messages})
 
     def on_message(self, message):
-        message = json.loads(message)
-        # ここで message["message"] を判定
+        message = json.loads(message) # 紛らわしい
+        id = message['id']
+        text = message['message']
+        if id in self.furikome_by_ids:
+            r = self.furikome_by_ids[id].recode(text)
+            print(r)
+            if r["talk_dubious"] == True:
+                text += " (詐欺！)"
+        else:
+            f = Furikome()
+            f.recode(text)
+            self.furikome_by_ids[id] = f
+
         self.messages.append(message)
         for waiter in self.waiters:
             if waiter == self:
                 continue
-            waiter.write_message({'id': message['id'], 'message': message['message']})
+            waiter.write_message({'id': id, 'message': text})
 
     def on_close(self):
         self.waiters.remove(self)
